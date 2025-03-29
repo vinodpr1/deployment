@@ -1,19 +1,16 @@
-import React from 'react'
 import {prismaClient} from "@repo/db/prismaClient";
-import axios from 'axios';
 
-
-
-const page = async() => {
-
-  const data = await axios.get("http://localhost:8000/");
+export default async function Home() {
+  const user = await prismaClient.user.findFirst();
 
   return (
     <div>
-      hii
-       {JSON.stringify(data.data)}
+      First name haha: 
+      {user?.name}
+      Email of the User: 
+      {user?.email}     
+      password: 
+      {user?.password}
     </div>
-  )
+  );
 }
-
-export default page
