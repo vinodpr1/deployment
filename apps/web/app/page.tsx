@@ -7,7 +7,8 @@ export default async function Home() {
   return (
     <div className={styles.page}>
       <main className={styles.main}>
-      
+         
+         Hello deployment server
 
         <div className={styles.ctas}>
           <a
