@@ -55,7 +55,7 @@ export default function FunLandingPage() {
           WebkitTextFillColor: 'transparent',
           backgroundClip: 'text'
         }}>
-          🚀 SpaceApp
+          🚀 Deployment App
         </div>
         
         <h1 style={{
