@@ -55,7 +55,7 @@ export default function FunLandingPage() {
           WebkitTextFillColor: 'transparent',
           backgroundClip: 'text'
         }}>
-          🚀 Deployment App
+          🚀 Deployment App After CI/CD
         </div>
         
         <h1 style={{
